@@ -43,7 +43,7 @@
     </head>
     <body>
       {{-- HEADER --}}
-      <header class="position-fixed top-0 w-100">
+      <header class="position-fixed top-0 w-100 z-3">
         <nav class="navbar navbar-expand-lg bg-preto py-lg-3 py-0 quicksand">
           <div class="container position-relative">
             <a href="#" class="text-decoration-none d-lg-none d-inline-block p-2"><img src="/img/monograma1.svg" alt="Logo StrikeTatto"></a>
@@ -110,7 +110,7 @@
                 <p class="text-light cabin text-center m-0">StrikerTattoo © 2021-<script type="text/javascript">document.write(new Date().getFullYear());</script>  | Alguns Direitos Reservados</p>
               </div>
               <div class="col-auto">
-                <img src="/img/monograma1.svg" class="d-sm-block d-none" alt="">
+                <a href="http://striketattoo.com/"><img src="/img/monograma1.svg" class="d-sm-block d-none" alt=""></a>
               </div>
             </div>
           </div>
